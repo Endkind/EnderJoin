@@ -1,0 +1,14 @@
+name: EnderJoin
+version: '${project.version}'
+main: net.endkind.enderjoin.EnderJoin
+api-version: '1.20'
+prefix: EnderJoin
+authors: [Endkind Ender]
+description: Allows you to customize or disable join/leave messages.
+website: https://www.endkind.net
+commands:
+  enderjoinreload:
+    description: Reloads the configuration of EnderJoin.
+    aliases:
+      - ejreload
+    permission: enderjoin.reload

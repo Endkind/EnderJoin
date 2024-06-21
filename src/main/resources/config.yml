@@ -1,0 +1,11 @@
+# Configuration file for the EnderJoin plugin
+# This placeholder {player} is used to represent the player's name
+# who is joining or leaving the server.
+version: 1
+
+join:
+  enabled: true
+  message: "&2+ &6{player}"
+leave:
+  enabled: true
+  message: "&4- &6{player}"
